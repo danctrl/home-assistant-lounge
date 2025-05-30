@@ -1,0 +1,21 @@
+  - name: "Lounge"
+    port: 21064
+    advertise_ip: 10.69.10.27
+    safe_mode: true
+    filter:
+      include_entity_globs:
+        - light.livingroom_*
+        - light.office_*
+        - light.storage_*
+        - light.entrance_*
+        - light.bathroom_*
+      exclude_entities:
+        - light.livingroom_spots
+        - light.livingroom_sideboard
+        - light.livingroom_floorlamp
+      include_entities:
+        - binary_sensor.entrance_apartmentdoor_opening
+        - binary_sensor.livingroom_balcony_opening
+        - binary_sensor.bathroom_motion
+        - binary_sensor.storage_motion
+        - binary_sensor.office_window_opening
