@@ -39,7 +39,9 @@ I'm running this on a Lenovo ThinkCentre M710q with RHEL 9.5, virtualized via KV
 ---
 
 ## 🧩 Installed Add-ons
+
 🚧 [Under Construction](https://github.com/custom-components/readme/issues/22) 🚧
+
 ---
 
 ## 🧬 HACS Integrations
@@ -60,7 +62,7 @@ These are custom components installed through HACS:
 
 Here are some automations I use daily or am particularly proud of:
 
-🔨 Work in progress!
+## 🔨 Work in progress!
 
 ---
 
