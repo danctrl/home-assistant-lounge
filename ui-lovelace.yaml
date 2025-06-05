@@ -1,87 +1,87 @@
 views:
-- sections:
-  - cards:
-    - heading: Living Room
-      heading_style: title
-      icon: mdi:sofa
-      type: heading
-    - entity: light.livingroom_floorlamp
-      features_position: bottom
-      type: tile
-      vertical: false
-    - entity: light.livingroom_spots
-      features_position: bottom
-      type: tile
-      vertical: false
-    - entity: light.livingroom_green_lamp
-      features_position: bottom
-      type: tile
-      vertical: false
-    - entity: light.livingroom_sideboard
-      features_position: bottom
-      type: tile
-      vertical: false
-    - entity: binary_sensor.livingroom_balcony_opening
-      features_position: bottom
-      name: Balcony Door
-      type: tile
-      vertical: false
-    type: grid
-  - cards:
-    - heading: Office
-      heading_style: title
-      icon: mdi:desk-lamp
-      type: heading
-    - entity: light.office_desk
-      features_position: bottom
-      type: tile
-      vertical: false
-    - entity: light.office_floorlamp
-      features_position: bottom
-      type: tile
-      vertical: false
-    - entity: light.office_spot
-      features_position: bottom
-      type: tile
-      vertical: false
-    type: grid
-  - cards:
-    - heading: Storage
-      heading_style: title
-      icon: mdi:archive
-      type: heading
-    - entity: light.storage_ceiling
-      features_position: bottom
-      type: tile
-      vertical: false
-    type: grid
-  - cards:
-    - heading: Bathroom
-      heading_style: title
-      icon: mdi:shower-head
-      type: heading
-    - entity: light.bathroom_mirror
-      features_position: bottom
-      type: tile
-      vertical: false
-    - entity: light.bathroom_ceiling
-      features_position: bottom
-      type: tile
-      vertical: false
-    type: grid
-  - cards:
-    - heading: Entrance
-      heading_style: title
-      icon: mdi:door-open
-      type: heading
-    - entity: light.entrance_spot
-      features_position: bottom
-      type: tile
-      vertical: false
-    - entity: binary_sensor.entrance_apartmentdoor_opening
-      features_position: bottom
-      name: Apartment Door
-      type: tile
-      vertical: false
-    type: grid
-  title: Home
+  - title: Home
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading: Living Room
+            heading_style: title
+            icon: mdi:sofa
+          - type: tile
+            entity: light.livingroom_floorlamp
+            features_position: bottom
+            vertical: false
+          - type: tile
+            entity: light.livingroom_spots
+            features_position: bottom
+            vertical: false
+          - type: tile
+            entity: light.livingroom_green_lamp
+            features_position: bottom
+            vertical: false
+          - type: tile
+            entity: light.livingroom_sideboard
+            features_position: bottom
+            vertical: false
+          - type: tile
+            entity: binary_sensor.livingroom_balcony_opening
+            features_position: bottom
+            vertical: false
+            name: Balcony Door
+      - type: grid
+        cards:
+          - type: heading
+            heading: Office
+            heading_style: title
+            icon: mdi:desk-lamp
+          - type: tile
+            entity: light.office_desk
+            features_position: bottom
+            vertical: false
+          - type: tile
+            entity: light.office_floorlamp
+            features_position: bottom
+            vertical: false
+          - type: tile
+            entity: light.office_spot
+            features_position: bottom
+            vertical: false
+      - type: grid
+        cards:
+          - type: heading
+            heading: Storage
+            heading_style: title
+            icon: mdi:archive
+          - type: tile
+            entity: light.storage_ceiling
+            features_position: bottom
+            vertical: false
+      - type: grid
+        cards:
+          - type: heading
+            heading: Bathroom
+            heading_style: title
+            icon: mdi:shower-head
+          - type: tile
+            entity: light.bathroom_mirror
+            features_position: bottom
+            vertical: false
+          - type: tile
+            entity: light.bathroom_ceiling
+            features_position: bottom
+            vertical: false
+      - type: grid
+        cards:
+          - type: heading
+            heading: Entrance
+            heading_style: title
+            icon: mdi:door-open
+          - type: tile
+            entity: light.entrance_spot
+            features_position: bottom
+            vertical: false
+          - type: tile
+            entity: binary_sensor.entrance_apartmentdoor_opening
+            features_position: bottom
+            vertical: false
+            name: Apartment Door
