@@ -48,7 +48,7 @@ I'm running this on a Lenovo ThinkCentre M710q with RHEL 9.5, virtualized via KV
 
 These are custom components installed through HACS:
 
-# 🔨 Work in progress!
+### 🔨 Work in progress!
 
 ---
 
@@ -64,7 +64,7 @@ These are custom components installed through HACS:
 
 Here are some automations I use daily or am particularly proud of:
 
-# 🔨 Work in progress!
+### 🔨 Work in progress!
 
 ---
 
