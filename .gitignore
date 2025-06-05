@@ -34,3 +34,6 @@ __pycache__/
 # Never commit SSH keys
 .ssh/
 id_rsa*
+
+# Allow image for GitHub banner
+!lounge_banner.png
